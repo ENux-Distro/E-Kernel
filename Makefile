@@ -11,3 +11,7 @@ clear:
 
 clean:
 	rm -rf *.o E-Kernel
+
+tar:
+	tar -czvf ../E-Kernel.tar .
+	mv ../E-Kernel.tar .
