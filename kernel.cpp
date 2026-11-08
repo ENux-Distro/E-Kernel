@@ -203,7 +203,7 @@ int strcmp(const char *s1, const char *s2) {
 extern "C" void kernel_main() {
 
     clear();
-    printvgaln("Hello world!");
+    printvgaln("E-Kernel");
     printvgaln("It won't be professional like GNU\n - Linus Torvalds");
 
     printvga("Initializing keyboard ");
